@@ -1,13 +1,8 @@
 
     // Auto-generated file
-    import team1 from '/Users/dariel/repositories/KaibanJS/agents-teams/bloggingTeam.kban.js';
-import team2 from '/Users/dariel/repositories/KaibanJS/bloggingTeam.kban.js';
-import team3 from '/Users/dariel/repositories/KaibanJS/resumeTeam.kban.js';
-
+    import team1 from './samples/resumeTeam.js';
     const teams = [
-      team1,
-      team2,
-      team3
+      team1
     ];
 
     export default teams;
