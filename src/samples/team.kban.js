@@ -61,3 +61,22 @@ const team = new Team({
 });
 
 export default team;
+
+/******************************************************************
+ *                                                                  *
+ *        🚀 Ready to supercharge your JavaScript AI Agents? 🚀    *
+ *                                                                *
+ * This is just a starting point, but if you're ready to flex:     *
+ *                                                                *
+ *   💡 Build a custom UI and control your agents like a boss.     *
+ *   🛠️ Equip your agents with tools (APIs, databases—you name it).*
+ *   🧠 Integrate different AI models (OpenAI, Anthropic, etc.).   *
+ *   🔮 Create setups so advanced, even you'll be impressed.       *
+ *                                                                *
+ * JavaScript AI Agents are here to stay!                       *
+ *                                                                *
+ * Head to https://kaibanjs.com                                *
+ * 
+ * PS: It's way cooler than this basic example. 😎                 *
+ *                                                                *
+ ******************************************************************/
