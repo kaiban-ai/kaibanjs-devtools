@@ -7,7 +7,8 @@ const uiSettings = {
   fullScreen: true,
   showExampleMenu: false,
   showShareOption: true,
-  showSettingsOption: false
+  showSettingsOption: false,
+  isPreviewMode: true
 };
 function App() {
 
