@@ -1,9 +1,20 @@
 {
     "version": 2,
-    "framework": "vite",
+    "name": "kaiban-board",
+    "outputDirectory": "./dist",
+    "builds": [
+        {
+            "src": "dist/**",
+            "use": "@vercel/static"  
+        }
+    ],
     "routes": [
-      { "handle": "filesystem" },
-      { "src": "/.*", "dest": "index.html" }
+        {
+          "handle": "filesystem"
+        },
+        {
+          "src": "/(.*)",
+          "dest": "/dist/$1"
+        }
     ]
-  }
-  
+}
