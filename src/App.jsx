@@ -11,19 +11,19 @@ const uiSettings = {
   isPreviewMode: true
 };
 if (!import.meta.env.VITE_OPENAI_API_KEY) {
-  alert(`
-    VITE_OPENAI_API_KEY is not set.
+  // alert(`
+  //   VITE_OPENAI_API_KEY is not set.
 
-    To configure it, follow these steps:
-    1. Create a .env file in the root directory of your project if it doesn't already exist.
-    2. Add the following line to the .env file:
-       VITE_OPENAI_API_KEY=your_openai_api_key_here
+  //   To configure it, follow these steps:
+  //   1. Create a .env file in the root directory of your project if it doesn't already exist.
+  //   2. Add the following line to the .env file:
+  //      VITE_OPENAI_API_KEY=your_openai_api_key_here
 
-    Make sure to replace 'your_openai_api_key_here' with your actual OpenAI API key.
+  //   Make sure to replace 'your_openai_api_key_here' with your actual OpenAI API key.
 
-    For more information, refer to the documentation at:
-    https://docs.kaibanjs.com/how-to/API%20Key%20Management
-  `);
+  //   For more information, refer to the documentation at:
+  //   https://docs.kaibanjs.com/how-to/API%20Key%20Management
+  // `);
 }
 function App() {
   return (
