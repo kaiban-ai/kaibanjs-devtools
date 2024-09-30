@@ -56,7 +56,7 @@ const team = new Team({
   env: {
     // You need to set the VITE_OPENAI_API_KEY in the .env file
     // Or you can hardcode it here locally to try it out
-    OPENAI_API_KEY: import.meta.env.VITE_OPENAI_API_KEY
+    OPENAI_API_KEY: import.meta.env.VITE_OPENAI_API_KEY || 'YOUR_OPENAI_API_KEY_HERE'
   }
 });
 
