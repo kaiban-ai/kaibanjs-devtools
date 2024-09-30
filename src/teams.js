@@ -1,6 +1,6 @@
 
     // Auto-generated file
-    import team1 from './samples/resumeTeam.js';
+    import team1 from './samples/team.kban.js';
     const teams = [
       team1
     ];
