@@ -6,7 +6,8 @@ import KaibanBoard from 'kaiban-board';
 const uiSettings = {
   fullScreen: true,
   showExampleMenu: false,
-  showShareOption: true,
+  showShareOption: false,
+  showSimpleShareOption: true,
   showSettingsOption: false,
   isPreviewMode: true
 };

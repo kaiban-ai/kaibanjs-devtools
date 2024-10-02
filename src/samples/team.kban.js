@@ -2,7 +2,7 @@ import { Agent, Task, Team } from 'kaibanjs';
 
 // Define agents
 const profileAnalyst = new Agent({
-    name: 'Mary', 
+    name: 'Zoe', 
     role: 'Profile Analyst', 
     goal: 'Extract structured information from conversational user input.', 
     background: 'Data Processor',
@@ -57,6 +57,9 @@ const team = new Team({
     // You need to set the VITE_OPENAI_API_KEY in the .env file
     // Or you can hardcode it here locally to try it out
     OPENAI_API_KEY: import.meta.env.VITE_OPENAI_API_KEY || 'YOUR_OPENAI_API_KEY_HERE'
+    
+    // For Next.js
+    // OPENAI_API_KEY: process.env.NEXT_PUBLIC_OPENAI_API_KEY;
   }
 });
 
