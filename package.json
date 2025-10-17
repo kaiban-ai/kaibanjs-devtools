@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "kaiban-board": "^0.3.3",
-    "kaibanjs": "^0.22.0",
+    "kaiban-board": "^0.4.0",
+    "kaibanjs": "^0.22.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
