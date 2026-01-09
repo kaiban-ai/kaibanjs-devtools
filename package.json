@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "kaiban-board": "^0.4.3",
-    "kaibanjs": "^0.23.0",
+    "kaibanjs": "^0.23.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
